@@ -1,3 +1,18 @@
+<html>
+  <body>
+    <script>
+
+      var params = (new URL(document.location)).searchParams;
+      var year = params.get('year');
+      var month = params.get('month');
+      console.log('year :', year);
+        /// => day : 2019
+      console.log('month :', month);
+        /// => month : 06
+    </script>
+  </body>
+</html>
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -280,3 +295,5 @@
     </script>
   </body>
 </html>
+
+-->
